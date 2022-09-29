@@ -76,7 +76,7 @@ display(purchase)
 distinctPayingUser = "select count(distinct p_uid) as PU from purchase"
 pu = spark.sql(distinctPayingUser)
 display(pu)
-v_pu = pu.collect()[0]["PU"]
+v_dpu = pu.collect()[0]["PU"]
 
 display(purchase)
 sumOfDailyRevenue = "select sum(p_amount) as DR from purchase"
