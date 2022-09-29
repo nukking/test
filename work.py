@@ -93,7 +93,7 @@ print("+------------------+")
 print("+------------------+")
 print("|            ARPPU |")
 print("+------------------+")
-print("|        {} |".format(v_dr / v_pu))
+print("|        {} |".format(v_dr / v_dpu))
 print("+------------------+")
 
 access.printSchema()
@@ -201,5 +201,3 @@ print("|            ARPPU |")
 print("+------------------+")
 print("|        {} |".format(v_dr / v_dpu))
 print("+------------------+")
-
-
